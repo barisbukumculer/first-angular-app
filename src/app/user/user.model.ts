@@ -3,3 +3,9 @@ export interface User {
   name: string;
   avatar: string;
 }
+
+export interface NewTaskData {
+  title: string;
+  summary: string;
+  date: string;
+}
